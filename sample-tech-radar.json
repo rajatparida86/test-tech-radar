@@ -1,35 +1,32 @@
 {
-  "title": "My Radar",
-  "quadrants": ["Quad1", "Quad2", "Quad3", "Quad4"],
-  "rings": ["adopt", "trial", "assess", "hold"],
-  "blips": [
+  "rings": [
     {
-      "name": "JavaScript",
-      "quadrant": "Quad1",
-      "ring": "adopt",
-      "isNew": false,
-      "description": "<p>This is a description</p><p>Formatted into paragraphs</p>"
-    },
+      "id": "use",
+      "name": "USE",
+      "color": "#93c47d"
+    }
+  ],
+  "quadrants": [
     {
-      "name": "Go",
-      "quadrant": "Quad2",
-      "ring": "trial",
-      "isNew": true,
-      "description": "This is a simple description"
-    },
+      "id": "languages",
+      "name": "Languages"
+    }
+  ],
+  "entries": [
     {
-      "name": "Java",
-      "quadrant": "Quad3",
-      "ring": "assess",
-      "isNew": false,
-      "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
-    },
-    {
-      "name": "C++",
-      "quadrant": "Quad4",
-      "ring": "hold",
-      "isNew": false,
-      "description": "This is another simple description"
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        }
+      ],
+      "url": "#",
+      "key": "javascript",
+      "id": "javascript",
+      "title": "JavaScript",
+      "quadrant": "languages"
     }
   ]
 }
